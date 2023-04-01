@@ -1,9 +1,8 @@
-<h1 align="center">Olá 👋, eu sou a Bárbara Valente Silveira Valle</h1>
+<h1 align="center">Olá :) Eu sou a Bárbara Valente Silveira Valle</h1>
 <h3 align="center">Estou navegando pelos mares e descobrindo o mundo da Ciência de Dados!</h3>
 
 - 🌱 Estou aprendendo **a propor soluções para tratamento e gerenciamento de Big Date e conhecendo técnicas para desenvolver projetos de Ciências de Dados**
 
-- 📫 Você pode falar comigo através do e-mail: **ba.silveira@hotmail.com.br**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
