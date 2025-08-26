@@ -1,24 +1,20 @@
-<h1 align="center">😊 Oie! Eu sou a Bárbara</h1>
-<h3 align="center">🖥️ Estou navegando pelos mares e descobrindo o mundo da Ciência de Dados 🖥️</h3>
+# 🌱 ETL Biodiesel - Brasil
 
--  📖 Conhecendo **técnicas** para desenvolver projetos de **Ciências de Dados**
--  💡 Aprendendo a **propor soluções** para tratamento e gerenciamento de **Big Date**
-- 🤜🤛 Disposta a adquirir e compartilhar conhecimento
+Este projeto tem como objetivo analisar as **Matérias-Primas utilizadas na Produção de Biodiesel no Brasil**, a partir de dados abertos do [Governo Federal](https://dados.gov.br/).
 
-<!--
-### Hi there 👋
+## 📊 Etapas do Projeto
+1. **Coleta dos Dados**  
+   - Fonte: Portal de Dados Abertos (CSV).
+   
+2. **Tratamento (ETL) com Python**  
+   - Limpeza e padronização (removendo acentos, ajustando datas).  
+   - Uso do Google Colab para processamento.
 
+3. **Armazenamento em Banco de Dados (MySQL)**  
+   - Criação de tabelas normalizadas.  
+   - Importação dos dados tratados via scripts SQL.
 
-**basvalle/basvalle** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+4. **Visualização** *(em progresso)*  
+   - Gráficos e dashboards para explorar tendências de uso das matérias-primas.
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🗂️ Estrutura do Repositório
