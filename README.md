@@ -4,7 +4,7 @@ Este projeto tem como objetivo analisar as **Matérias-Primas utilizadas na Prod
 
 ## 📊 Etapas do Projeto
 1. **Coleta dos Dados**  
-   - Fonte: [Painéis de Produção de Etanol e de Biodiesel (CSV)] (https://dados.gov.br/dados/conjuntos-dados/paineis-de-producao-de-etanol-e-de-biodiesel)
+   - Fonte: [Painéis de Produção de Etanol e de Biodiesel (CSV)](https://dados.gov.br/dados/conjuntos-dados/paineis-de-producao-de-etanol-e-de-biodiesel)
    
 2. **Tratamento (ETL) com Python**  
    - Limpeza e padronização (remoção de acentos com *Unidecode*, ajuste de datas e nomes de colunas, entre outros) 
