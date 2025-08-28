@@ -1,10 +1,11 @@
-# 🌱 ETL Biodiesel - Brasil
+# ETL Biodiesel - Brasil
 
 Este projeto tem como objetivo analisar as **Matérias-Primas utilizadas na Produção de Biodiesel no Brasil**, a partir de dados abertos do [Governo Federal](https://dados.gov.br/home)
 
 ## 📊 Etapas do Projeto
 1. **Coleta dos Dados**  
-   - Fonte: [Painéis de Produção de Etanol e de Biodiesel (CSV)](https://dados.gov.br/dados/conjuntos-dados/paineis-de-producao-de-etanol-e-de-biodiesel)
+   - Fonte: [Painéis de Produção de Etanol e de Biodiesel](https://dados.gov.br/dados/conjuntos-dados/paineis-de-producao-de-etanol-e-de-biodiesel)
+      - Arquivo: Matéria-Prima utilizadas na Produção de Biodiesel (CSV)
    
 2. **Tratamento (ETL) com Python**  
    - Limpeza e padronização (remoção de acentos com *Unidecode*, ajuste de datas e nomes de colunas, entre outros) 
@@ -21,9 +22,9 @@ Este projeto tem como objetivo analisar as **Matérias-Primas utilizadas na Prod
 ## 🗂️ Estrutura do Repositório
 etl-biodiesel-python-mysql/
 
-    ├── data/                  # Arquivos CSV brutos ou tratados
+    ├── biodiesel-materia-prima.csv                 # Arquivo CSV brutos
     ├── notebooks/             # Notebooks Jupyter/Colab para exploração e tratamento
-      └── projeto_mp_biodisel.ipynb
+      └── projeto_mp_biodiesel.ipynb
     ├── sql/                   # Scripts SQL para criar e popular o banco de dados
       ├── 01_create_tables.sql
       ├── 02_insert_meses.sql
