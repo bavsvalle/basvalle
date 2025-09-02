@@ -20,17 +20,22 @@ Este projeto tem como objetivo analisar as **Matérias-Primas utilizadas na Prod
    - Gráficos e dashboards para explorar tendências de uso das matérias-primas
 
 ## 🗂️ Estrutura do Repositório
-etl-biodiesel-python-mysql/
 
-    ├── biodiesel-materia-prima.csv                 # Arquivo CSV brutos
-    ├── notebooks/             # Notebooks Jupyter/Colab para exploração e tratamento
-      └── projeto_mp_biodiesel.ipynb
-    ├── sql/                   # Scripts SQL para criar e popular o banco de dados
-      ├── 01_create_tables.sql
-      ├── 02_insert_meses.sql
-      ├── 03_insert_anos.sql
-      ├── 04_insert_regioes.sql
-      ├── 05_insert_estados.sql
-      ├── 06_insert_produtos.sql
-      └── 07_insert_biocombustiveis.sql
-     └── README.md              # Este arquivo
+etl-biodiesel-python-mysql/
+│
+├── data/ # Arquivos de dados brutos (CSV, Excel, etc.)
+│ └── biodiesel-materia-prima.csv
+│
+├── notebooks/ # Notebooks Jupyter para análise e testes
+│ └── projeto_mp_biodiesel.ipynb
+│
+├── sql/ # Scripts SQL para criar e popular tabelas
+│ ├── 01_create_tables.sql
+│ ├── 02_insert_meses.sql
+│ ├── 03_insert_anos.sql
+│ ├── 04_insert_regioes.sql
+│ ├── 05_insert_estados.sql
+│ ├── 06_insert_produtos.sql
+│ └── 07_insert_biocombustiveis.sql
+│
+└── README.md # Este arquivo
