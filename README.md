@@ -37,5 +37,6 @@ etl-biodiesel-python-mysql/
 │ ├── 05_insert_estados.sql  
 │ ├── 06_insert_produtos.sql  
 │ └── 07_insert_biocombustiveis.sql  
+│ └── 08_create_views.sql  
 │  
 └── README.md # Este arquivo
