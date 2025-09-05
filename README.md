@@ -4,8 +4,8 @@ Este projeto tem como objetivo analisar as **Matérias-Primas utilizadas na Prod
 
 ## 📊 Etapas do Projeto
 1. **Coleta dos Dados**  
-   - Fonte: [Painéis de Produção de Etanol e de Biodiesel](https://dados.gov.br/dados/conjuntos-dados/paineis-de-producao-de-etanol-e-de-biodiesel)
-      - Arquivo: Matéria-Prima utilizadas na Produção de Biodiesel (CSV)
+   - Fonte: [Painéis de Produção de Etanol e de Biodiesel (Governo Federal)](https://dados.gov.br/dados/conjuntos-dados/paineis-de-producao-de-etanol-e-de-biodiesel)
+      - Arquivo: biodiesel-materia-prima.csv (CSV)
    
 2. **Tratamento (ETL) com Python**  
    - Limpeza e padronização (remoção de acentos com *Unidecode*, ajuste de datas e nomes de colunas, entre outros) 
@@ -15,18 +15,16 @@ Este projeto tem como objetivo analisar as **Matérias-Primas utilizadas na Prod
 3. **Armazenamento em Banco de Dados (MySQL)**  
    - Criação de tabelas normalizadas
    - Importação dos dados tratados via scripts SQL
-
-4. **Visualização** *(em progresso)*  
-   - Gráficos e dashboards para explorar tendências de uso das matérias-primas
+   - Criação de views  
 
 ## 🗂️ Estrutura do Repositório
 
 etl-biodiesel-python-mysql/  
 │
-├── data/ # Arquivos de dados brutos (CSV, Excel, etc.)  
+├── data/ # Arquivos de dados brutos (CSV)  
 │ └── biodiesel-materia-prima.csv  
 │  
-├── notebooks/ # Notebooks Jupyter para análise e testes  
+├── notebooks/ # Notebooks do Google Colab para análise e testes
 │ └── projeto_mp_biodiesel.ipynb  
 │  
 ├── sql/ # Scripts SQL para criar e popular tabelas  
